@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading{
+    display: block;
+    text-align: center;
+}
+
+.heading h1{
+    color: blueviolet;
+}
+
+#search-inp{
+    padding: 0 10px;
+    width: 30rem;
+    height: 3rem;
+    border-radius: 10px;
+}
+
+#search-icon{
+    font-size: 20px;
+    border: 2px solid ;
+    padding: 5px 5px;
+    background-color: rgb(14, 14, 109);
+    color: white;
+    border-radius: 5px;
+}
+
+.services{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+    width: 70%;
+    margin: auto;
+    /* border: 2px solid ; */
+    margin-top: 2rem;
+}
+
+.card{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+.img{
+    width: 90%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;  
+
+}
+
+.img img{
+    width: 100%;
+    border-radius: 10px;
+    /* margin-bottom: 10px; */
+}
+
+.card p{
+    margin-top: 10px;
+}
+
+.main {
+    width: 60%;
+    margin: 20px auto;
+}
+
+.center{
+    text-align: center;
+}
+
