@@ -21,9 +21,10 @@ header{
 
 #search-inp{
     padding: 0 10px;
-    width: 30rem;
+    width: 25rem;
     height: 3rem;
     border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 #search-icon{
@@ -76,3 +77,14 @@ header{
     text-align: center;
 }
 
+@media screen and (max-width: 480px) {
+   .services{
+        grid-template-columns: repeat(1,1fr);
+   }
+    
+  }
+@media screen and ((min-width:481px) and (max-width: 1000px)) {
+   .services{
+        grid-template-columns: repeat(2,1fr);
+   }  
+  }
